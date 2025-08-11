@@ -95,6 +95,8 @@ IMDB_Classification/
 │   └── IMDB_Classification.ipynb     # Data analysis & model training
 │
 ├── 📄 README.md                      # Project documentation
+│
+├── requirements.txt		              # Project Libraries
 ```
 
 
