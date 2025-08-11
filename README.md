@@ -25,7 +25,7 @@
 
 
 
-## 📊 Dataset | دیتاست
+## 📊  دیتاست
 
 - **Source:** IMDB dataset from `keras.datasets`
 - **Samples:** 50,000 movie reviews  
@@ -49,30 +49,30 @@
 
 - MLP (Multi-Layer Perceptron):
 
-    Input Layer → 10,000 features
-    Dense Layer → 16 units, relu activation
-    Dense Layer → 16 units, relu activation
-    Output Layer → 1 unit, sigmoid activation (for binary classification)
+   - Input Layer → 10,000 features
+   - Dense Layer → 16 units, relu activation
+   - Dense Layer → 16 units, relu activation
+   - Output Layer → 1 unit, sigmoid activation (for binary classification)
 
 
 ### ⚙ Training | آموزش
-
-    Optimizer: RMSprop
-    Loss: Binary Crossentropy
-    Metric: Accuracy
-    Batch Size: 512
-    Epochs: 20 
+ 
+ - Optimizer: RMSprop
+ - Loss: Binary Crossentropy
+ - Metric: Accuracy
+ - Batch Size: 512
+ - Epochs: 20 
 
 
 ### 📈 Results | نتایج
 
-    Validation Accuracy: ~86%
-    Test Accuracy: ~87%
-    Validation Loss Curve: loss decreases steadily until overfitting after ~4 epochs.
+- Validation Accuracy: ~86%
+- Test Accuracy: ~87%
+- Validation Loss Curve: loss decreases steadily until overfitting after ~4 epochs.
 
 
 
-## 🚀 How to Run | نحوه اجرا
+## 🚀 نحوه اجرا
 
 1) Install dependencies | نصب کتابخانه‌ها
 ```bash
