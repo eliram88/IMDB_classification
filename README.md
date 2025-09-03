@@ -1,22 +1,21 @@
 # IMDB Movie Review Sentiment Classification
 
-🎯 هدف پروژه: طبقه‌بندی نظرات کاربران دیتاست IMDB به دو دسته مثبت و منفی  در TensorFlow/Keras.
+🎯 Project goal: Classify IMDB movie reviews into positive and negative categories using TensorFlow/Keras.
 
 
-## 🌐 لینک ها
+## 🌐 Links
 
-- [دیتاست پروژه](https://storage.googleapis.com/tensorflow/tf-keras-datasets/imdb.npz)
-  فایل دیتاست مورد استفاده در پروژه
+- [Dataset](https://storage.googleapis.com/tensorflow/tf-keras-datasets/imdb.npz)  
+  IMDB Dataset
 
-- [مشاهده پروژه در Google Colab](https://colab.research.google.com/drive/1zYiy6fIgYLUgisngQR40IXt8h_83vNBR?usp=sharing)
- اجرای آنلاین کد پروژه در محیط Google Colab
+- [View project in Google Colab](https://colab.research.google.com/drive/1zYiy6fIgYLUgisngQR40IXt8h_83vNBR?usp=sharing)  
+   Google Colab Notebook: Run the project online
 
-- [مشاهده پروژه در GitHub](https://github.com/eliram88/IMDB_Classification)
-  سورس کد و مستندات پروژه در GitHub
+- [View project in GitHub](https://github.com/eliram88/IMDB_Classification)  
+  GitHub Repository: Source code & documentation
 
 
-
-## 🔧 ابزارهای استفاده‌شده
+## 🔧 Tools & Libraries
 
 - Python (Numpy, Tensorflow, Matplolib, Keras)
 - Google Colab
@@ -25,7 +24,7 @@
 
 
 
-## 📊  دیتاست
+## 📊  Dataset
 
 - **Source:** IMDB dataset from `keras.datasets`
 - **Samples:** 50,000 movie reviews  
@@ -37,15 +36,15 @@
 
 
 
-## 📊 مراحل پروژه
+## 📊 Project Stages
 
-### 🛠 Preprocessing | پیش‌پردازش
+### 🛠 Preprocessing 
 
-- Vectorizing Text Sequences for Neural Network Input
-  - هر نقد که به صورت لیستی از اندیس کلمات است، به یک وکتور باینری تبدیل میشود
+- Vectorized text sequences for neural network input
+- Each review (as a list of word indices) was transformed into a binary vector representation
 
 
-### 🧠 Model Design | طراحی مدل
+### 🧠 Model Design
 
 - MLP (Multi-Layer Perceptron):
 
@@ -55,7 +54,7 @@
    - Output Layer → 1 unit, sigmoid activation (for binary classification)
 
 
-### ⚙ Training | آموزش
+### ⚙ Training 
  
  - Optimizer: RMSprop
  - Loss: Binary Crossentropy
@@ -64,7 +63,7 @@
  - Epochs: 20 
 
 
-### 📈 Results | نتایج
+### 📈 Results 
 
 - Validation Accuracy: ~86%
 - Test Accuracy: ~87%
@@ -72,14 +71,14 @@
 
 
 
-## 🚀 نحوه اجرا
+## 🚀 How to Run
 
-1) Install dependencies | نصب کتابخانه‌ها
+1) Install dependencies 
 ```bash
 pip install tensorflow numpy matplotlib
 ```
 
-2) Run Jupyter Notebook | اجرای نوت‌بوک
+2) Run Jupyter Notebook
 ```bash
 jupyter notebook
 ```
@@ -87,7 +86,7 @@ Open the file IMDB_Classification.ipynb and run all cells.
 
 
 
-## 📁 ساختار فایل‌ها
+## 📁 Project Structure
 ```bash
 IMDB_Classification/
 │
@@ -101,9 +100,10 @@ IMDB_Classification/
 
 
 
-## 🧑‍💻 توسعه‌دهنده
+## 🧑‍💻 Developer
 
-این پروژه توسط یک علاقه‌مند به تحلیل داده و یادگیری ماشین طراحی و اجرا شده  
-با هدف شرکت در موقعیت های "تحلیلگر داده / دیتا ساینتیست".
+This project was developed by a data analysis and machine learning enthusiast with the goal of:
 
-✨ هدف: توسعه نمونه کار قابل ارائه، تمرین تحلیل واقعی، یادگیری مدل‌سازی حرفه‌ای و تفسیر مدل
+- Practicing text classification with neural networks
+- Building a professional portfolio project
+- Gaining expertise in interpreting models for sentiment analysis
